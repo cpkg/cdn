@@ -951,6 +951,7 @@ function getHeadNav(navSelector,head_logoSelector){
 	$(navSelector).append(strHtml);
 }
 
+var  $_arrowFunction ="var t = () => {};" ;
 var $_HOPE = {};
 try{
   let $_fv = new Function($_arrowFunction);
